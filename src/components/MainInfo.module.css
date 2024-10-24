@@ -1,0 +1,151 @@
+.container {
+  width: 500px;
+  height: 100vh;
+  text-align: right;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 8em;
+  padding-bottom: 4em;
+  line-height: 4em;
+}
+
+.title {
+  font-family: Fraunces;
+  font-style: italic;
+  font-size: 4em;
+  margin: 0 0 0 1em;
+}
+
+.subtitle {
+  font-family: Afacad Flux;
+  font-size: 2.5em;
+  margin: 0 0;
+  display: inline-block;
+  border-right: 2px solid transparent;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.subtitle-deleting-typing {
+  animation: deleting 2s steps(14, end),
+             typing-phase-2 3s steps(23, end) 2s,
+             blink-caret 0.75s step-end 8;
+}
+
+.socials {
+  margin-left: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: rgb(76, 76, 76);
+  cursor: alias;
+  margin-left: 0.7em;
+}
+
+a:hover {
+  transition: .5s;
+}
+
+.resume {
+  font-family: Fraunces;
+  font-weight: 600;
+  font-style: italic;
+  border: 0.1em solid rgb(76, 76, 76);
+  border-radius: 5px;
+  padding: 0.2em 0.2em;
+  font-size: 1em;
+  margin-right: 0.2em;
+}
+
+.resume:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(76, 76, 76);
+}
+
+.git {
+  font-size: 1.7em;
+  margin-top: 0.15em;
+}
+
+.git:hover {
+  color: #EA4F31;
+}
+
+.linkedin {
+  font-size: 1.7em;
+  margin-top: 0.15em;
+}
+
+.linkedin:hover {
+  color: #0866C2;
+}
+
+.index {
+  font-family: Afacad Flux;
+  font-weight: 700;
+  line-height: 1.8em;
+  margin-top: 7em;
+  cursor: crosshair;
+  color: rgb(100, 100, 100);
+  margin-left: 350px;
+  font-size: 1.1em;
+}
+
+.active {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border-bottom: 0.1px solid rgb(37, 37, 37);
+}
+
+
+@keyframes deleting {
+  from {
+    width: 23ch;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+@keyframes typing-phase-2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 23ch;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .index{
+    display: none;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: static;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 4em;
+  }
+}

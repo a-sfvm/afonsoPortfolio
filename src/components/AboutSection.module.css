@@ -1,0 +1,17 @@
+.aboutcontainer {
+  text-align: justify;
+}
+
+.title {
+  font-family: Afacad Flux;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-top: 2em;
+  border-bottom: 1px solid rgb(37, 37, 37);
+}
+
+/* .text {
+  display: flex;
+  flex-direction: column;
+  padding: 0.2em;
+} */

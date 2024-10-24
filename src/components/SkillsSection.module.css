@@ -1,0 +1,49 @@
+.title {
+  font-family: Afacad Flux;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-top: 2em;
+  border-bottom: 1px solid rgb(37, 37, 37);
+}
+
+.iconGrid {
+  margin-top: 9em;
+  margin-bottom: 9em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: 2em;
+  border: 0.1em solid rgb(76, 76, 76);
+  border-radius: 8px;
+}
+
+.iconItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(76, 76, 76);
+  padding: 1em;
+  border-radius: 8px;
+  transition: transform 0.5s;
+  cursor: default;
+}
+
+.name {
+  font-family: Afacad Flux;
+  font-weight: 500;
+  opacity: 0%;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  rotate: -10deg;
+  text-shadow: 0.8px 0.8px rgba(255, 229, 85, 0.361);
+}
+
+.iconItem:hover {
+  transform: scale(1.25);
+  color: rgb(151, 151, 151);
+  rotate: -5deg;
+}
+
+.iconItem:hover .name {
+  opacity: 100%;
+}
