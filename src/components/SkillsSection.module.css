@@ -2,13 +2,12 @@
   font-family: Afacad Flux;
   font-weight: 700;
   font-size: 1.5em;
-  padding-top: 2em;
+  margin-top: 6em;
   border-bottom: 1px solid rgb(37, 37, 37);
 }
 
 .iconGrid {
-  margin-top: 9em;
-  margin-bottom: 9em;
+  margin: 3em auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1em;

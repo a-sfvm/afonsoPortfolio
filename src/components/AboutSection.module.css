@@ -11,5 +11,17 @@
 }
 
 .text {
-  padding: 0.2em;
+  margin-top: 3em;
+  border: 0.1em solid rgb(76, 76, 76);
+  border-radius: 8px;
+  padding: 2em;
+  text-align: justify;
+  margin: 3em auto;
+}
+
+.subtitle {
+  font-family: Afacad Flux;
+  font-weight: 450;
+  font-size: 1.8em;
+  margin: 0 auto;
 }
