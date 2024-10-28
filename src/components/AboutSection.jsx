@@ -6,7 +6,7 @@ function AboutSection() {
     <div className={classes.aboutcontainer} id="about" >
       <h3 className={classes.title}>About</h3>
       <div className={classes.text}>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit odio et nisl bibendum, vel imperdiet nibh pharetra. Nullam scelerisque, massa eget suscipit dictum, augue lectus commodo dui, sit amet consequat ante libero vitae lectus. Proin dignissim ipsum quis bibendum tempor. Nullam dictum vel nibh quis ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis in dui mauris. Fusce gravida tellus sapien, vel volutpat orci aliquam sed. Morbi tincidunt vestibulum lacinia. Phasellus faucibus magna a nibh consequat bibendum. Aliquam erat volutpat. Vivamus sit amet commodo lorem.</p>
+        <p>Hey there! Im a Junior Full Stack Developer with a background in Audiovisual and Multimedia—and a slightly unconventional journey to web development. After a couple of years in Australia, exploring hospitality and healthcare gigs, followed by two more years in the creative world of TV and Cinema Art Departments back home in Portugal, I decided to switch things up and dive into tech.</p>
       </div>
     </div>
   )
