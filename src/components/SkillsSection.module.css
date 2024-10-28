@@ -35,14 +35,14 @@
   color: rgb(0, 0, 0);
   rotate: -10deg;
   text-shadow: 0.8px 0.8px rgba(255, 229, 85, 0.361);
+  transition: opacity 0.3s ease;
 }
 
 .iconItem:hover {
-  transform: scale(1.25);
+  transform: scale(1.25) rotate(-5deg);
   color: rgb(151, 151, 151);
-  rotate: -5deg;
 }
 
-.iconItem:hover .name {
-  opacity: 100%;
+.iconItem:hover > .name {
+  opacity: 1;
 }
