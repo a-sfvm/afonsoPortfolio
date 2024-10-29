@@ -13,6 +13,8 @@
 .text {
   margin-top: 3em;
   border: 0.1em solid rgb(76, 76, 76);
+  background-color: #fefcf6;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
   border-radius: 8px;
   padding: 2em;
   text-align: justify;
@@ -21,19 +23,7 @@
 
 .subtitle {
   font-family: Afacad Flux;
-  font-weight: 450;
+  font-weight: 400;
   font-size: 1.8em;
   margin: 0 auto;
-}
-
-.pone {
-  margin-right: 5em;
-}
-
-.ptwo {
-  margin-left: 5em;
-}
-
-.pthree {
-  margin-right: 5em;
 }

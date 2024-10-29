@@ -18,6 +18,8 @@
 .project {
   margin: 3em auto;
   border: 0.1em solid rgb(76, 76, 76);
+  background-color: #fefcf6;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
   border-radius: 8px;
   padding-bottom: 1em;
 }
