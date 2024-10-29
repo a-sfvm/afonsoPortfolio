@@ -13,7 +13,7 @@ function ProjectsSection() {
         <div className={classes.project}>
           <SurfbuddyCarousel />
           <div>
-            <a href="https://www.surfbuddy.live/" target="_blank">
+            <a href="https://www.surfbuddy.live/" rel="noopener noreferrer" target="_blank">
               <h4 className={classes.projectName}>SurfBuddy.live  <IoArrowForwardOutline className={classes.icon}/></h4>
             </a>
             <p className={classes.description}>Final project for the LeWagon Bootcamp. Web application that sends real-time alerts based on surf conditions in Portugal, thanks to a collaboration with the AI team analyzing surf webcams.</p>
@@ -29,7 +29,7 @@ function ProjectsSection() {
         <div className={classes.project}>
           <RnrCarousel />
           <div>
-            <a href="https://github.com/daCunhaFerreira/SURF_RnR" target="_blank">
+            <a href="https://github.com/daCunhaFerreira/SURF_RnR" rel="noopener noreferrer" target="_blank">
               <h4 className={classes.projectName}>Surf RnR  <IoArrowForwardOutline className={classes.icon}/></h4>
             </a>
             <p className={classes.description}>A web app (cloning Airbnb) where users can rent surfboards from local owners wherever they may be.</p>

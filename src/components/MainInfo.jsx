@@ -69,13 +69,13 @@ const MainInfo = () => {
           {text}
         </h3>
         <div className={classes.socials}>
-          <a href="https://github.com/a-sfvm" target='_blank'>
+          <a href="https://github.com/a-sfvm" rel="noopener noreferrer" target='_blank'>
             <FaGithub className={classes.git}/>
           </a>
-          <a href="https://www.linkedin.com/in/afonso-melo/" target="_blank">
+          <a href="https://www.linkedin.com/in/afonso-melo/" rel="noopener noreferrer" target='_blank'>
             <FaLinkedin className={classes.linkedin}/>
           </a>
-          <a href={Resume} target='_blank' className={classes.resume}>
+          <a href={Resume} rel="noopener noreferrer" target='_blank' className={classes.resume}>
             resume
           </a>
         </div>
