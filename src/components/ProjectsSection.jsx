@@ -19,9 +19,9 @@ function ProjectsSection() {
             <p className={classes.description}>Final project for the LeWagon Bootcamp. Web application that sends real-time alerts based on surf conditions in Portugal, thanks to a collaboration with the AI team analyzing surf webcams.</p>
             <div className={classes.tools}>
               <span className={classes.tool}>Ruby on Rails</span>
-              <span className={classes.tool}>Bootstrap</span>
               <span className={classes.tool}>HTML</span>
-              <span className={classes.tool}>CSS</span>
+              <span className={classes.tool}>SCSS</span>
+              <span className={classes.tool}>Bootstrap</span>
               <span className={classes.tool}>Heroku</span>
             </div>
           </div>
@@ -37,7 +37,7 @@ function ProjectsSection() {
               <span className={classes.tool}>Ruby on Rails</span>
               <span className={classes.tool}>JavaScript</span>
               <span className={classes.tool}>HTML</span>
-              <span className={classes.tool}>CSS</span>
+              <span className={classes.tool}>SCSS</span>
               <span className={classes.tool}>Heroku</span>
             </div>
           </div>

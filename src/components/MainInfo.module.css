@@ -142,10 +142,23 @@ a:hover {
   .container {
     width: auto;
     height: auto;
-    text-align: center;
+    text-align: start;
     position: static;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 2em 2em;
     line-height: 4em;
+  }
+
+  .title {
+    font-size: 2.5em;
+    margin: 0 auto;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+  }
+
+  .socials {
+    margin: 0 auto;
+    justify-content: flex-start;
   }
 }

@@ -2,12 +2,14 @@
   margin-left: 600px;
   padding: 8em 8em 8em 0em;
   max-width: 700px;
+  min-width: 500px;
 }
 
 @media screen and (max-width: 480px) {
   .layoutright {
+    margin-left: 0px;
     margin: 0px auto;
-    /* max-width: 480px; */
+    min-width: 350px;
     padding: 1em 1em 1em 1em;
   }
 }
