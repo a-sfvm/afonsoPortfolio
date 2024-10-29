@@ -4,6 +4,7 @@
   font-size: 1.5em;
   margin-top: 6em;
   border-bottom: 1px solid rgb(37, 37, 37);
+  text-shadow: 0.8px 0.8px rgba(255, 229, 85, 0.361);
 }
 
 .image {
@@ -63,4 +64,6 @@
   margin: 0em 0.5em;
   padding: 0.2em 0.2em;
   color: rgb(76, 76, 76);
+  box-shadow: 0 10px 30px rgba(134, 134, 134, 0.1);
+
 }
