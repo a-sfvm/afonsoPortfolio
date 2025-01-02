@@ -1,5 +1,5 @@
 import Slider from 'react-slick';
-// Import slick-carousel css files here
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
